@@ -1,5 +1,11 @@
 ---
 ja:
+  enums:
+      task:
+        kind:
+          individual: "私用"
+          work: "仕事"
+          others: "その他"
   activerecord:
     errors:
       messages:
