@@ -1,11 +1,8 @@
 %tr
   %td
-    - if task.kind == 0
-      私用
-    - if task.kind == 1
-      仕事
-    - if task.kind == 2
-      その他
+    = task.kind_i18n
+  %td
+    = task.title
   %td
     = task.title
   %td
